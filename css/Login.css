@@ -1,0 +1,79 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    background: url("../img/ecommerce.jpg");
+    background-size: cover;
+}
+
+form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 350px;
+    height: 420px;
+    background: rgb(0,0,0, 0.5);
+    border-radius: 25px;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: floralwhite;
+    text-align: center;
+    margin-top: 80px;
+}
+
+#username, #password {
+    position: absolute;
+    outline: none;
+    border: none;
+    width: 240px;
+    height: 30px;
+    border-bottom: 2px solid #0094ff;
+    background: none;
+    padding: 5px;
+    color: floralwhite;
+}
+
+#username {
+    top: 140px;
+    left: 50px;
+}
+
+#password {
+    top: 210px;
+    left: 50px;
+}
+
+#submit {
+    position: absolute;
+    top: 305px;
+    left: 110px;
+    width: 130px;
+    height: 35px;
+    background: #0094ff;
+    border: none;
+    outline: none;
+    color: floralwhite;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+    #submit:hover {
+        background: floralwhite;
+        color: #0094ff;
+        cursor: pointer;
+    }
+
+#create {
+    position: absolute;
+    top: 380px;
+    left: 50px;
+    color: floralwhite;
+}
+
+    #create:hover {
+        color: #0094ff;
+        cursor: pointer;
+    }

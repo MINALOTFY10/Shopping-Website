@@ -1,0 +1,26 @@
+
+a{
+    display: inline-block;
+    border: 2px solid #FA2742;
+    padding: 8px;
+    background-color: #1181B2;
+    color: #F7F7F7;
+    border-radius: 4px;
+    text-decoration: none;
+    margin: 10% -25% -98px 34%;
+    font-size: 26px;
+}
+
+fieldset {
+    display: inline-block; 
+    margin-left: 30%;
+    margin-top: 7%;
+    border: 3px #FA2742 solid ;
+    padding: 25px;
+    padding-bottom: 42px;
+    background-color: white ;
+}
+body {
+    background-color: E8EAE3;
+    color: #FA2742 ;
+}
